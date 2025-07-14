@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Question3</title>
+    </head>
+    <body>
+        <h1>Feedback form</h1>
+        <form action="/server">
+            <label for="n_me">Name:</label>
+            <input type="text" name="name" id="n_me" placeholder="Write your name">
+            <br><br>
+            <label for="g_mail">Email:</label>
+            <input type="text" name="gmail" id="g_mail" placeholder="Write your email">
+            
+            <br><br>
+            <div>
+                <lebel for="feedback">Message:</lebel>
+                <br>
+                <textarea name="Feed" id="feedback" rows="4" cols="30"></textarea>
+            </div>
+            <br>
+            <div>
+                <lebel for="rat">Rate us out of 5:</lebel>
+                <br>
+                <input type="radio" name="rat" Id="rate1" value="1">
+                <lebel for="rate1">1</lebel>
+                <br>
+                <input type="radio" name="rat" Id="rate2" value="2">
+                <lebel for="rate2">2</lebel>
+                <br>
+                <input type="radio" name="rat" Id="rate3" value="3">
+                <lebel for="rate3">3</lebel>
+                <br>
+                <input type="radio" name="rat" Id="rate4" value="4">
+                <lebel for="rate4">4</lebel>
+                <br>
+                <input type="radio" name="rat" Id="rate5" value="5">
+                <lebel for="rate5">5</lebel>
+            </div>
+            <br>
+            <button type="submit">Send your message!</button>
+        </form>
+    </body>
+</html>

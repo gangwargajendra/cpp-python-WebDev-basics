@@ -1,0 +1,12 @@
+h2  {
+    color: rgb(39, 39, 166);
+}
+
+input[type="button"] {
+    background-color: aqua;
+}
+
+button  {
+    background-color: black;
+    color: white;
+}
